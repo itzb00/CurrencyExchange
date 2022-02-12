@@ -1,0 +1,13 @@
+package BookOfSecretArts;
+
+public class CurrencyExchange {
+    public static void main(String[] args) {
+        exchange("USD","KRW", 1000);
+    }
+
+    public static double exchange(String fromCurrency, String toCurrency, double amount) {
+        double exchangeRate = 1.00;
+        double newAmount = amount * exchangeRate;
+        return newAmount;
+    }
+}
